@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types';
 import { setDonation, have } from '../../Utility/localStogare';
+import swal from 'sweetalert';
 
 const DetailsCard = ({data}) => {
     const {id, image, price, title, description, color} = data || {}
@@ -7,10 +8,10 @@ const DetailsCard = ({data}) => {
     const handleDonation = () => {
         setDonation(id)
         if(!have){
-            alert("successful")
+            swal ( "Thanks" ,  "Donation successfully!!" ,  "success" )
         }
         else{
-            alert("error")
+            swal ( "Oops" ,  "Already Donated!!" ,  "error" )
         }
     }
     return (

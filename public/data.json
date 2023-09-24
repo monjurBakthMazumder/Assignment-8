@@ -131,19 +131,6 @@
     },
     {
         "id": 11,
-        "title": "Secondhand clothing donation event",
-        "category": "Clothing",
-        "description": "Clean water is a fundamental necessity for every aspect of a child's life, including clothing. Without access to clean water, maintaining proper hygiene becomes a challenge, which can lead to various health issues.\n\nYour support for clean water projects aimed at clothing helps ensure that children have the means to stay clean and healthy. Clean water not only keeps their clothes fresh but also contributes to their overall well-being. Join us in supporting clean water initiatives for clothing and make a positive impact on the lives of children, allowing them to lead healthier and more comfortable lives.",
-        "price": 950,
-        "image": "https://i.ibb.co/LrXRBXx/Clothing.png",
-        "color": {
-            "text_color": "#79C23F",
-            "card_bg": "#79C23F33",
-            "category_bg": "#79C23F26"
-        }
-    },
-    {
-        "id": 12,
         "title": "Improved access to nutritious food for all.",
         "category": "Food",
         "description": "Access to clean water is closely linked to food security. Nutritious food and clean water are essential components of a child's growth and development. Without clean water, the risk of contamination and waterborne diseases in food preparation increases significantly.\n\nBy supporting clean water initiatives for food, you are helping ensure that children have safe and hygienic access to the sustenance they need. Your contribution promotes better nutrition, reduces health risks, and empowers children to lead healthier lives. Join us in this mission to provide 's food, giving them a brighter and healthier future.",
@@ -153,6 +140,19 @@
             "text_color": "#F87147",
             "card_bg": "#F8714733",
             "category_bg": "#F8714726"
+        }
+    },
+    {
+        "id": 12,
+        "title": "Secondhand clothing donation event",
+        "category": "Clothing",
+        "description": "Clean water is a fundamental necessity for every aspect of a child's life, including clothing. Without access to clean water, maintaining proper hygiene becomes a challenge, which can lead to various health issues.\n\nYour support for clean water projects aimed at clothing helps ensure that children have the means to stay clean and healthy. Clean water not only keeps their clothes fresh but also contributes to their overall well-being. Join us in supporting clean water initiatives for clothing and make a positive impact on the lives of children, allowing them to lead healthier and more comfortable lives.",
+        "price": 950,
+        "image": "https://i.ibb.co/LrXRBXx/Clothing.png",
+        "color": {
+            "text_color": "#79C23F",
+            "card_bg": "#79C23F33",
+            "category_bg": "#79C23F26"
         }
     }
 ]
