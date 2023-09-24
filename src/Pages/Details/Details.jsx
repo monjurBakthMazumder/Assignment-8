@@ -12,7 +12,7 @@ const Details = () => {
         setData(findData)
     },[allData, id])
     return (
-        <div className="px-5 sm:px-[10%]  mb-20">
+        <div className="px-5 sm:px-[10%] mb-20">
             <DetailsCard data={data}/>
         </div>
     );

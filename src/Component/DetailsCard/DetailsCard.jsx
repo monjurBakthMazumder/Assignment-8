@@ -4,7 +4,6 @@ import swal from 'sweetalert';
 
 const DetailsCard = ({data}) => {
     const {id, image, price, title, description, color} = data || {}
-    console.log(data);
     const handleDonation = () => {
         setDonation(id)
         if(!have){

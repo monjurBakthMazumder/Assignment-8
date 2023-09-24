@@ -10,7 +10,6 @@ const Donation = () => {
 
     useEffect(()=>{
         const saveDonationId = getSaveDonation()
-        console.log(saveDonationId);
 
         if(allData?.length > 0){
             const donationsArray =[];
@@ -24,7 +23,7 @@ const Donation = () => {
         }
     },[allData])
     return (
-        <div className="px-5 md:px-[10%] mt-10 mb-40">
+        <div className="px-5 md:px-[10%] mt-10 mb-20">
             {
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
                     {

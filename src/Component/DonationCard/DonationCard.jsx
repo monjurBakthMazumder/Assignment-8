@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 
 const DonationCard = ({donation}) => {
     const {id, title, category, image2, color, price} =  donation || {}
-    console.log(donation);
     return (
         <div className="card shadow-xl rounded flex flex-row items-center" style={{backgroundColor: color?.card_bg}}>
             <figure className='rounded-r-none'><img src={image2} alt={`images of ${title}`} className='w-full'/></figure>
