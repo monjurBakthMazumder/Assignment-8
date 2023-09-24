@@ -8,7 +8,7 @@ const Banner = () => {
                 <h1 className="mb-5 text-2xl md:text-3xl lg:text-4xl font-bold">I Grow By Helping People In Need</h1>
                 <div className="flex justify-center items-center px-[10%]">
                     <input type="text" placeholder="Type here" className="input input-bordered w-full rounded-r-none" />
-                    <button className="btn btn-error bg-primary text-white rounded-l-none">Get Started</button>
+                    <button className="btn btn-error bg-primary text-white rounded-l-none">Search</button>
                 </div>
                 </div>
             </div>
