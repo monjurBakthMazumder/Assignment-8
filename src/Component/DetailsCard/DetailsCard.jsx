@@ -1,13 +1,27 @@
 import PropTypes from 'prop-types';
+import { setDonation, have } from '../../Utility/localStogare';
 
 const DetailsCard = ({data}) => {
-    const {image, price, title, description, color} = data || {}
+    const {id, image, price, title, description, color} = data || {}
     console.log(data);
+    const handleDonation = () => {
+        setDonation(id)
+        if(!have){
+            alert("successful")
+        }
+        else{
+            alert("error")
+        }
+    }
     return (
         <div>
             <div className="hero flex flex-col-reverse justify-between rounded-md my-10" style={{backgroundImage: `url(${image})`}}>
                 <div className="hero-overlay bg-opacity-80 h-20 flex items-center px-[5%]">
-                    <button className="btn text-white border-0" style={{backgroundColor: color?.text_color}}>Donate ${price}</button>
+                    <button 
+                        onClick={handleDonation}
+                        className="btn text-white border-0" 
+                        style={{backgroundColor: color?.text_color}}
+                    >Donate ${price}</button>
                 </div>
                 <div className="hero-content text-center text-neutral-content">
                 <div className="h-48 sm:h-52 md:h-60 lg:h-72 xl:h-80">
