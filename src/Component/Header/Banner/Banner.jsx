@@ -11,8 +11,8 @@ const Banner = ({handleSubmit, setIsSearch}) => {
 
 
                 <form onSubmit={handleSubmit} className="flex justify-center items-center px-[10%]">
-                    <input type="text" placeholder="Type here" className="input input-bordered w-full rounded-r-none" name='search'/>
-                    <input onClick={()=>setIsSearch(true)} type="submit" value="submit" className="btn btn-error bg-primary text-white rounded-l-none"/>
+                    <input type="text" placeholder="Search by category..." className="input input-bordered w-full rounded-r-none" name='search'/>
+                    <input onClick={()=>setIsSearch(true)} type="submit" value="Search" className="btn btn-error bg-primary text-white rounded-l-none"/>
                 </form>
 
 
