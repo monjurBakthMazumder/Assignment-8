@@ -37,12 +37,18 @@ const Donation = () => {
                 </div>
                 
             }
-            <div className={`text-center my-5 ${dataLength === donations?.length && 'hidden'}`}>
-                <button 
-                    onClick={()=> setDataLength(donations.length)}
-                    className="btn btn-success bg-[#009444] text-white"
-                >See All</button>
-            </div>
+            {
+                donations?.length > 4 
+                ?
+                <div className={`text-center my-5 ${dataLength === donations?.length && 'hidden'}`}>
+                    <button 
+                        onClick={()=> setDataLength(donations.length)}
+                        className="btn btn-success bg-[#009444] text-white"
+                    >See All</button>
+                </div>
+                :
+                ""
+            }
         </div>
     );
 };
