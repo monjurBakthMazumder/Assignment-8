@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const DonationCard = ({donation}) => {
     const {id, title, category, image2, color, price} =  donation || {}
     return (
-        <div className="card shadow-xl rounded flex flex-row items-center" style={{backgroundColor: color?.card_bg}}>
+        <div className="card rounded flex flex-row items-center" style={{backgroundColor: color?.card_bg}}>
             <figure className='rounded-r-none'><img src={image2} alt={`images of ${title}`} className='w-full'/></figure>
             <div className="card-body p-3 w-1/2">
                 <span className='w-fit px-2 py-[2px] text-sm font-medium rounded' style={{backgroundColor: color?.category_bg, color: color?.text_color}}>{category}</span>

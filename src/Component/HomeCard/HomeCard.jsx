@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const HomeCard = ({data}) => {
     const {id, title, category, image, color} =  data || {}
     return (
-        <Link to={`/${id}`} className="card shadow-xl rounded" style={{backgroundColor: color?.card_bg}}>
+        <Link to={`/${id}`} className="card rounded" style={{backgroundColor: color?.card_bg}}>
             <figure><img src={image} alt={`images of ${title}`} className='w-full'/></figure>
             <div className="card-body p-3">
                 <span className='w-fit px-2 py-[2px] text-sm font-medium rounded' style={{backgroundColor: color?.category_bg, color: color?.text_color}}>{category}</span>

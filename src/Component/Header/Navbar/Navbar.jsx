@@ -30,9 +30,9 @@ const Navbar = () => {
         </li>
     </>
     return (
-        <div className="flex justify-between items-center px-5 sm:px-[10%] pt-5">
+        <div className="flex justify-between items-center px-5 sm:px-[10%] py-5">
   <div className="mr-auto">
-    <p className="btn btn-ghost normal-case text-xl h-10"><Logo/></p>
+    <NavLink to={'/'} className="normal-case text-xl"><Logo/></NavLink>
   </div>
   <div className="hidden lg:flex">
     <ul className="flex items-center gap-5">
