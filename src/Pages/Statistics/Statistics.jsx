@@ -43,7 +43,7 @@ const Statistics = () => {
     };
 
     return (
-        <dic className="px-5 md:px-[10%]">
+        <dic className="px-5 md:px-[10%] mb-20">
             <ResponsiveContainer width="100%" height={400}>
                 <PieChart>
                     <Pie
