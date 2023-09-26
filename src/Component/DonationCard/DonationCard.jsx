@@ -10,7 +10,7 @@ const DonationCard = ({donation}) => {
                 <span className='w-fit px-2 py-[2px] text-sm font-medium rounded' style={{backgroundColor: color?.category_bg, color: color?.text_color}}>{category}</span>
                 <h2 className="text-lg lg:text-xl font-bold">{title}</h2>
                 <span className='font-bold'  style={{color: color?.text_color}}>${price.toFixed(2)}</span>
-                <Link to={`/${id}`} className='btn w-fit border-0 text-white btn-sm rounded' style={{backgroundColor: color?.text_color}}>View Details</Link>
+                <Link to={`/details/${id}`} className='btn w-fit border-0 text-white btn-sm rounded' style={{backgroundColor: color?.text_color}}>View Details</Link>
             </div>
         </div>
     );
